@@ -18,14 +18,14 @@ function Nav() {
     return (
         <header className="flex-row px-1">
             <h2>
-                <a href="/">
+                <a data-testid="link" href="/">
                     <span role="img" aria-label="skull">💀</span> Danger By Design
                 </a>
             </h2>
             <nav>
                 <ul className="felx-row">
                     <li className="mx-2">
-                        <a href="#about">
+                        <a data-testid="about" href="#about">
                             About Me
                         </a>
                     </li>
