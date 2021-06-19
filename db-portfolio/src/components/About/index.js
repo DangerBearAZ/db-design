@@ -1,5 +1,6 @@
 import React from 'react';
 import CoverImage from "../../assets/cover/beach-party.jpg"
+
 function About() {
     return (
         <section className="my-5">
