@@ -1,9 +1,23 @@
 import React from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers'
+import photo from "../../assets/screenshot"
 
-function projects () { 
+function projects(props) { 
+    const currentCategory = {
+        name: "Projects",
+        description: "Things I have created"
+    }
     return (
-        <section className="my-5">
-            <h1 id="projects"> Projects</h1>
+        <section>
+            <h1> {capitalizeFirstLetter(currentCategory.name)} </h1>
+            <p>{currentCategory.name}</p>
+            <div className="flex-row">
+                <img
+                src={photo}
+                alt="example work"
+                className="img-thumbnail mx-1"
+                />
+            </div>
         </section>
     );
 
