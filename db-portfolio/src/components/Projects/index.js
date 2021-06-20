@@ -1,6 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers'
-import photo from "../../assets/screenshot"
+import photo from "../../assets/screenshot/budget.jpg"
 
 function projects(props) { 
     const currentCategory = {
