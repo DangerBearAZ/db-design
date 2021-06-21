@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import About from './components/About'
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 
 function App() {
 
@@ -31,7 +31,7 @@ const [currentCategory, setCurrentCategory] = useState(categories[0]);
         <About></About>
         <Projects currentCategory={currentCategory}></Projects>
         <Resume></Resume>
-        <Contact></Contact>
+        <ContactForm></ContactForm>
       </main>
     </div>
   );
