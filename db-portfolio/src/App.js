@@ -7,6 +7,13 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 
+// trying to depoloy with git hub 
+var ghpages = require('gh-pages');
+
+ghpages.publish('dist', function(err) {});
+
+
+
 function App() {
 
   
